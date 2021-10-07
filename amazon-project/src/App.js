@@ -1,10 +1,14 @@
- 
-import './App.css';
+ import React from 'react';
+ import Header from './Header';
+ import './App.css';
+import Home from './Home';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>hello guys, lets build an amazon store for semicolon africa  </h1>
+
+      <Header/>
+      <Home/>
     </div>
   );
 }
