@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-//import Logo from './images/amazon-logo3.png'
+import Logo from './images/amazon-logo3.png'
 import SearchIcon from '@material-ui/icons/Search'
 import ShoppingCart from '@material-ui/icons/ShoppingCart'
  
@@ -8,8 +8,8 @@ import ShoppingCart from '@material-ui/icons/ShoppingCart'
 const Header = () => {
   return (
     <div className = "header">
-        <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon-logo" className="header-logo" />
-        {/* <img src={Logo} alt="amazon-logo" className="header-logo" /> */}
+        {/* <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" className="header-logo" /> */}
+        <img src={Logo} alt="amazon-logo" className="header-logo" />
 
        <div className="header__search">
             <input type="text" className="header-searchInput" />
