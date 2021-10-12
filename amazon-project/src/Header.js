@@ -8,7 +8,7 @@ import ShoppingCart from '@material-ui/icons/ShoppingCart'
 const Header = () => {
   return (
     <div className = "header">
-        <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon-logo" className="header-logo" />
+         <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" className="header-logo" /> 
         {/* <img src={Logo} alt="amazon-logo" className="header-logo" /> */}
 
        <div className="header__search">
