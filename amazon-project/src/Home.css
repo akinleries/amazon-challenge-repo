@@ -4,13 +4,27 @@
     max-width: 30000px;
     margin-left: auto;
     margin-right: auto;
+    
+ }
+ .first__text{
+     position: absolute;
+     font-size: 50px;
+     color: lightyellow;
+     margin-left: 40px;
+     position: fixed;
+     height: 20px;
  }
 
 .home__image{
-    object-fit: contain;
+    position: relative;
     z-index: -1;
+    object-fit: cover; 
     margin-bottom: -150px;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    height: 25%;
+    width: 100%;
+ 
+    
 }
 
 .home__row{
@@ -18,4 +32,5 @@
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
+    transition : 0.3s ease-in-out;
 }
