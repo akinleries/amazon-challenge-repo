@@ -19,7 +19,7 @@ const Product = ({title, price, rating, image}) => {
         ))
       }</div>  
       </div>
-      <img className = "product__image" src={image} alt="" />
+      <img className = "product__image" src={image} alt="" /> 
       <div className="add_to_cart_button">add to cart</div> 
     </div>
   )

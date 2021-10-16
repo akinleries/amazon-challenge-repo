@@ -34,6 +34,13 @@ const Home = () => {
              rating = {5}
              image = {Chair}
             />
+
+           <Product
+             title = "seat comfortably"
+             price = {12.02}
+             rating = {5}
+             image = {Chair}
+            />
       </div>
 
       <div className="home__row">
