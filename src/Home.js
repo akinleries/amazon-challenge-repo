@@ -9,9 +9,9 @@ import Chair from './images/amazon_chair.jpg'
 const Home = () => {
   return (
    <div>
-      <div className = "first__text">
+      {/* <div className = "first__text">
         <marquee behavior = "scroll" direction = "left" width = "100%">Welcome to amazon Online Shopping</marquee>
-      </div>
+      </div> */}
     <div className = "home">
   
         <div className="home-container">
@@ -23,12 +23,14 @@ const Home = () => {
       <div className="home__row">
         
             <Product 
+            id = {123}
             title = "seat comfortably"
             price = {12.02}
             rating = {5}
             image = {Chair}
             />
             <Product
+            id = {1234}
              title = "seat comfortably"
              price = {12.02}
              rating = {5}
@@ -36,6 +38,7 @@ const Home = () => {
             />
 
            <Product
+           id = {12345}
              title = "seat comfortably"
              price = {12.02}
              rating = {5}
@@ -45,18 +48,21 @@ const Home = () => {
 
       <div className="home__row">
             <Product
+            id = {123456}
              title = "seat comfortably"
              price = {12.02}
              rating = {5}
              image = {Chair}
             />
             <Product
+            id = {1234567}
              title = "seat comfortably"
              price = {12.02}
              rating = {5}
              image = {Chair}
             />
             <Product
+            id = {12345678}
              title = "seat comfortably"
              price = {12.02}
              rating = {5}
@@ -66,6 +72,7 @@ const Home = () => {
 
     <div className="home__row">
            <Product
+           id = {123456780}
             title = "seat comfortably"
             price = {12.02}
             rating = {5}
