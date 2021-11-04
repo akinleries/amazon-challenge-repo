@@ -1,33 +1,31 @@
 import React from 'react'
 import './Home.css'
 import Product from './Product'
-import AdertImage from './images/market_image.jpg'
 import Chair from './images/amazon_chair.jpg'
-//import City from './images/city.jpg'
+ 
 
 
 const Home = () => {
   return (
    <div>
-      {/* <div className = "first__text">
-        <marquee behavior = "scroll" direction = "left" width = "100%">Welcome to amazon Online Shopping</marquee>
-      </div> */}
+      
     <div className = "home">
   
         <div className="home-container">
 
-{/* 
-         <img className = "home__image" size ={150} src={City} alt="" /> */}
-         {/* <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2021/img/Events/Holiday/EpicDailyDeals/LandingPage/HOL21_EDD_Phase4_hero-banner_short_desktop_1500x150.jpg" alt="Epic Daily Deals"/> */}
-          <img className = "home__image" src={AdertImage} alt="" />
+
+          <img className = "home__image" src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt="Epic Daily Deals"/> 
+        
       <div className="home__row">
         
             <Product 
+            
             id = {123}
             title = "seat comfortably"
             price = {12.02}
             rating = {5}
             image = {Chair}
+            key = {123}
             />
             <Product
             id = {1234}
@@ -35,14 +33,16 @@ const Home = () => {
              price = {12.02}
              rating = {5}
              image = {Chair}
+             key = {1234}
             />
 
            <Product
-           id = {12345}
+             id = {12345}
              title = "seat comfortably"
              price = {12.02}
              rating = {5}
              image = {Chair}
+             key = {12345}
             />
       </div>
 
@@ -53,6 +53,7 @@ const Home = () => {
              price = {12.02}
              rating = {5}
              image = {Chair}
+             key = {123456}
             />
             <Product
             id = {1234567}
@@ -60,6 +61,7 @@ const Home = () => {
              price = {12.02}
              rating = {5}
              image = {Chair}
+             key = {1234567}
             />
             <Product
             id = {12345678}
@@ -67,16 +69,19 @@ const Home = () => {
              price = {12.02}
              rating = {5}
              image = {Chair}
+             key = {12345678}
             />
       </div>
 
     <div className="home__row">
            <Product
-           id = {123456780}
+
+             id = {123456780}
             title = "seat comfortably"
             price = {12.02}
             rating = {5}
             image = {Chair}
+            key = {123456780}
            />
     </div>
           

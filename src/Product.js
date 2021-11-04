@@ -5,7 +5,7 @@ import { useStateValue } from './StateProvider';
 const Product = ({id, title, price, rating, image}) => {
 
   const [{basket}, dispatch] = useStateValue();
-  console.log("this is th basket  >>", basket)
+  console.log("this is the basket  >>", basket)
 
   const addToCart = () =>{
 
