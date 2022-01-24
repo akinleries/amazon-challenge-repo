@@ -9,23 +9,29 @@ const Subtotal = () => {
 
   const [{basket}, dispatch] = useStateValue();
     return (
-        <div className = "subtotal">
-             <CurrencyFormat 
-             renderText = {(value) => (
-               <div>
-                     <p> Subtotal ({basket.length} items) : <strong>{value}</strong></p>
-                 <small className = "subtotal__gift"><input type="checkbox" />This order contains gift </small>
-               </div>
-             )}
-             decimalScale = {2}
-             value = {getBasketTotal(basket)}
-             displayType = {"text"}
-             thousandSeparator = {true}
-             prefix = {"$"}
-             />
-             <div className="checkout__button">proceed to checkout</div>
-        </div>
-    )
+      <div className="subtotal">
+        <CurrencyFormat
+          renderText={(value) => (
+            <div>
+              <p>
+                {" "}
+                Subtotal (<b>{basket.length}</b> items) : <strong>0</strong>
+              </p>
+              <small className="subtotal__gift">
+                <input type="checkbox" />
+                This order contains gift{" "}
+              </small>
+            </div>
+          )}
+          decimalScale={2}
+          value={getBasketTotal(basket)}
+          displayType={"text"}
+          thousandSeparator={true}
+          prefix={"$"}
+        />
+        <div className="checkout__button">proceed to checkout</div>
+      </div>
+    );
 }
 
 export default Subtotal

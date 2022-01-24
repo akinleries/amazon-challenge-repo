@@ -28,7 +28,7 @@ const Home = () => {
               title="seat comfortably"
               price={294.0}
               rating={4}
-              image="https://images-na.ssl-images-amazon.com/images/I/810%2BGNdkzKL._AC_SX450_.jpg"
+              image={Chair}
               //  key={1234}
             />
           </div>
